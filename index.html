@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jejak Para Penemu Dunia - Mengenal tokoh-tokoh yang mengubah peradaban manusia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="logo" class="img-left" width="100" height="100">
+                <div class="text-part">
+                    <h1>Jejak Para Penemu Dunia</h1>
+                    <p>Mengenal tokoh-tokoh yang mengubah peradaban manusia</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li>
+                        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#penemu">Penemu</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <div class="container hero-content">
+            <h2>Para Penemu yang Mengubah Wajah Dunia</h2>
+            <p>Dari lampu pijar hingga telepon, dari radio hingga radium, penemuan-penemuan besar telah mengubah cara kita hidup, bekerja, dan berkomunikasi. Mari kita telusuri jejak para penemu yang memberikan kontribusi luar biasa bagi peradaban manusia.</p>
+            <a href="#penemu" class="btn">Jelajahi Penemu</a>
+        </div>
+    </section>
+
+    <!-- Daftar Penemu Section -->
+    <section class="penemu-section" id="penemu">
+        <div class="container">
+            <h2 class="section-title">Daftar Penemu Terkenal</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="elektro">Elektro & Komunikasi</button>
+                <button class="filter-btn" data-filter="sains">Sains & Kimia</button>
+                <button class="filter-btn" data-filter="medis">Medis & Teknologi</button>
+            </div>
+            
+            <div class="penemu-grid" id="penemuGrid">
+                <!-- Kartu penemu akan dimuat dengan Java   ipt -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Biografi Detail Section -->
+    <section class="biografi-detail" id="biografiDetail">
+        <div class="container biografi-container">
+            <!-- Konten biografi akan dimuat dengan JavaScript -->
+        </div>
+    </section>
+
+    <!-- Timeline Penemuan Section -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Timeline Penemuan Penting</h2>
+            
+            <div class="timeline-container" id="timelineContainer">
+                <!-- Timeline items akan dimuat dengan JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="tentang">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Jejak Para Penemu Dunia</h3>
+                    <p>Platform edukasi untuk mengenal biografi dan penemuan tokoh-tokoh penting yang mengubah peradaban manusia.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Menu Cepat</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#penemu">Daftar Penemu</a></li>
+                        <li><a href="#timeline">Timeline Penemuan</a></li>
+                        <li><a href="#tentang">Tentang Website</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Informasi</h4>
+                    <p>Dibuat Oleh Kelompok 6 WEB UAS</p>
+                    <p>SMKS Binong Permai An-nurmaniyah <br> Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810
+                    </p>
+
+                    
+                
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jejak Para Penemu Dunia. Hak Cipta Dilindungi. | SMKS Binong Permai An-nurmaniyah.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
